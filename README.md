@@ -10,26 +10,3 @@ A simple Python script to:
 ### Run:
 ```bash
 python file_manager.py
-
-
-To **create this file**, run:
-
-```bash
-echo "# File Manager Script\n\nA simple Python script to:\n\n- Create files\n- Read files\n- Update files (rename, overwrite, append)\n- Delete files\n\n### Run:\n\`\`\`bash\npython file_manager.py\n\`\`\`" > README.md
-
-
-from pathlib import Path
-
-Path("README.md").write_text(
-    "# File Manager Script\n\n"
-    "A simple Python script to:\n\n"
-    "- Create files\n"
-    "- Read files\n"
-    "- Update files (rename, overwrite, append)\n"
-    "- Delete files\n\n"
-    "### Run:\n"
-    "```bash\n"
-    "python file_manager.py\n"
-    "```"
-)
-
