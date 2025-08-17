@@ -9,4 +9,5 @@ A simple Python script to:
 
 ### Run:
 ```bash
-python file_manager.py
+python main.py
+
